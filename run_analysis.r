@@ -14,8 +14,8 @@ xTest <- read.table("UCI HAR Dataset/test/X_test.txt")
 yTest <- read.table("UCI HAR Dataset/test/y_test.txt")
 subjectTest <- read.table("UCI HAR Dataset/test/subject_test.txt")
 
-# As described in the data README.txt, xTest contains the values for all variables in the 561 feature 
-# vector. yTest contains the activity labels corresponding to each record in the xTest data frame. 
+# As described in the data README.txt, xTest contains the values for all variables in the 561 
+# feature vector. yTest contains the activity labels corresponding to each record in the xTest data frame. 
 # subjectTest contains the labels for the subject who performed the activity.
 # 
 # We now combine these into a single data frame named testData using the cbind() function.
