@@ -70,8 +70,10 @@ The analysis is performed by the script 'run_analysis.R'. R should be installed 
 	- plyr
 	- dplyr
 	> The R code for installing the packages is:  
-	> `install.packages("plyr")`  
-	> `install.packages("dplyr")`  
+	> ```  
+	> install.packages("plyr")  
+	> install.packages("dplyr")  
+	> ```  
 	
 	> The R code for loading the packages into the session is:  
 	> `library(plyr)`  
