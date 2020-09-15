@@ -62,7 +62,7 @@ tidyData[[2]] <- factor(tidyData[[2]], labels = c("Walking", "Walking Upstairs",
 remove(xTest, yTest, subjectTest, testData, xTrain, yTrain, subjectTrain, trainData, fullData)
 
 # STEP 3:
-# Now, we need to add a row of descriptive variable names for the columns in tidyData. Each of 
+# Now, we need to add descriptive variable names for the columns in tidyData. Each of 
 # these corresponds to one feature of the 561-feature vector, as given in features.txt.
 # 
 # We import the contents of features.txt into a data frame called features.
