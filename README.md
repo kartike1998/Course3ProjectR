@@ -34,7 +34,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ### Data used
 The following files from the 'UCI HAR dataset' are required for the analysis:
 - 'README.txt'
-- 'features.txt' - contains a list of all features making up the columns of the X_test and X_train data sets
+- 'features.txt' - contains a list of all 561 features making up the columns of the X_test and X_train data sets
 - 'activity_labels.txt' - gives the activity name for each label in y_test and y_train
 - 'X_train.txt' - [7352 x 561] training dataset containing the observations for the 561-feature vector
 - 'y_train.txt' - [7352 x 1] has activity labels for each record in X_train data
@@ -72,6 +72,7 @@ The analysis is performed by the script 'run_analysis.R'. R should be installed 
 	> The R code for installing the packages is:  
 	> `install.packages("plyr")`  
 	> `install.packages("dplyr")`  
+	
 	> The R code for loading the packages into the session is:  
 	> `library(plyr)`  
 	> `library(dplyr)`  
@@ -98,6 +99,8 @@ The script 'run_analysis.R' creates three tidy datasets in the R environment, `t
 'Codebook.md' is also included in this project. It contains a description of all the variables and statistical information about the datasets. Refer to it for more details.
 
 ## References
-1. Lectures and notes from "Getting and Cleaning Data" course, part of the "Data Science: Foundations using R" specialization, offered by Johns Hopkins University on Coursera.
+1. Lectures and notes from "Getting and Cleaning Data" course, part of the "Data Science: Foundations using R" specialization, offered by Johns Hopkins University on Coursera
 2. Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10), 1 - 23. doi:http://dx.doi.org/10.18637/jss.v059.i10
-3. www.markdownguide.org
+3. Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+4. www.markdownguide.org
+
