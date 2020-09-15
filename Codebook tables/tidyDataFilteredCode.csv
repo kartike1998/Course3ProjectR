@@ -1,0 +1,69 @@
+Column number,Variable name,Type,Observation,Function,Component,Description,Measurement type,Domain
+1,Subject,Integer,Subject,NA,NA,"ID of subject who performed the activity, range [1:30]",NA,NA
+2,Activity,Character (factor),Activity,NA,NA,"Name of activity, range {""Walking"", ""Walking Upstairs"", ""Walking Downstairs"", ""Sitting"", ""Standing"", ""Laying""}",NA,NA
+3,tBodyAcc-mean()-X,Numeric,tBodyAcc,mean,X,Body linear acceleration,Mean value,Time domain signal
+4,tBodyAcc-mean()-Y,Numeric,tBodyAcc,mean,Y,Body linear acceleration,Mean value,Time domain signal
+5,tBodyAcc-mean()-Z,Numeric,tBodyAcc,mean,Z,Body linear acceleration,Mean value,Time domain signal
+6,tBodyAcc-std()-X,Numeric,tBodyAcc,std,X,Body linear acceleration,Standard deviation,Time domain signal
+7,tBodyAcc-std()-Y,Numeric,tBodyAcc,std,Y,Body linear acceleration,Standard deviation,Time domain signal
+8,tBodyAcc-std()-Z,Numeric,tBodyAcc,std,Z,Body linear acceleration,Standard deviation,Time domain signal
+9,tGravityAcc-mean()-X,Numeric,tGravityAcc,mean,X,Gravity linear acceleration,Mean value,Time domain signal
+10,tGravityAcc-mean()-Y,Numeric,tGravityAcc,mean,Y,Gravity linear acceleration,Mean value,Time domain signal
+11,tGravityAcc-mean()-Z,Numeric,tGravityAcc,mean,Z,Gravity linear acceleration,Mean value,Time domain signal
+12,tGravityAcc-std()-X,Numeric,tGravityAcc,std,X,Gravity linear acceleration,Standard deviation,Time domain signal
+13,tGravityAcc-std()-Y,Numeric,tGravityAcc,std,Y,Gravity linear acceleration,Standard deviation,Time domain signal
+14,tGravityAcc-std()-Z,Numeric,tGravityAcc,std,Z,Gravity linear acceleration,Standard deviation,Time domain signal
+15,tBodyAccJerk-mean()-X,Numeric,tBodyAccJerk,mean,X,Jerk of body linear acceleration,Mean value,Time domain signal
+16,tBodyAccJerk-mean()-Y,Numeric,tBodyAccJerk,mean,Y,Jerk of body linear acceleration,Mean value,Time domain signal
+17,tBodyAccJerk-mean()-Z,Numeric,tBodyAccJerk,mean,Z,Jerk of body linear acceleration,Mean value,Time domain signal
+18,tBodyAccJerk-std()-X,Numeric,tBodyAccJerk,std,X,Jerk of body linear acceleration,Standard deviation,Time domain signal
+19,tBodyAccJerk-std()-Y,Numeric,tBodyAccJerk,std,Y,Jerk of body linear acceleration,Standard deviation,Time domain signal
+20,tBodyAccJerk-std()-Z,Numeric,tBodyAccJerk,std,Z,Jerk of body linear acceleration,Standard deviation,Time domain signal
+21,tBodyGyro-mean()-X,Numeric,tBodyGyro,mean,X,Body angular velocity,Mean value,Time domain signal
+22,tBodyGyro-mean()-Y,Numeric,tBodyGyro,mean,Y,Body angular velocity,Mean value,Time domain signal
+23,tBodyGyro-mean()-Z,Numeric,tBodyGyro,mean,Z,Body angular velocity,Mean value,Time domain signal
+24,tBodyGyro-std()-X,Numeric,tBodyGyro,std,X,Body angular velocity,Standard deviation,Time domain signal
+25,tBodyGyro-std()-Y,Numeric,tBodyGyro,std,Y,Body angular velocity,Standard deviation,Time domain signal
+26,tBodyGyro-std()-Z,Numeric,tBodyGyro,std,Z,Body angular velocity,Standard deviation,Time domain signal
+27,tBodyGyroJerk-mean()-X,Numeric,tBodyGyroJerk,mean,X,Jerk of body angular velocity,Mean value,Time domain signal
+28,tBodyGyroJerk-mean()-Y,Numeric,tBodyGyroJerk,mean,Y,Jerk of body angular velocity,Mean value,Time domain signal
+29,tBodyGyroJerk-mean()-Z,Numeric,tBodyGyroJerk,mean,Z,Jerk of body angular velocity,Mean value,Time domain signal
+30,tBodyGyroJerk-std()-X,Numeric,tBodyGyroJerk,std,X,Jerk of body angular velocity,Standard deviation,Time domain signal
+31,tBodyGyroJerk-std()-Y,Numeric,tBodyGyroJerk,std,Y,Jerk of body angular velocity,Standard deviation,Time domain signal
+32,tBodyGyroJerk-std()-Z,Numeric,tBodyGyroJerk,std,Z,Jerk of body angular velocity,Standard deviation,Time domain signal
+33,tBodyAccMag-mean(),Numeric,tBodyAccMag,mean,NA,Magnitude of body linear acceleration (using Euclidean norm),Mean value,Time domain signal
+34,tBodyAccMag-std(),Numeric,tBodyAccMag,std,NA,Magnitude of body linear acceleration (using Euclidean norm),Standard deviation,Time domain signal
+35,tGravityAccMag-mean(),Numeric,tGravityAccMag,mean,NA,Gravity linear acceleration,Mean value,Time domain signal
+36,tGravityAccMag-std(),Numeric,tGravityAccMag,std,NA,Gravity linear acceleration,Standard deviation,Time domain signal
+37,tBodyAccJerkMag-mean(),Numeric,tBodyAccJerkMag,mean,NA,Magnitude of jerk of body linear acceleration (using Euclidean norm),Mean value,Time domain signal
+38,tBodyAccJerkMag-std(),Numeric,tBodyAccJerkMag,std,NA,Magnitude of jerk of body linear acceleration (using Euclidean norm),Standard deviation,Time domain signal
+39,tBodyGyroMag-mean(),Numeric,tBodyGyroMag,mean,NA,Magnitude of body angular velocity (using Euclidean norm),Mean value,Time domain signal
+40,tBodyGyroMag-std(),Numeric,tBodyGyroMag,std,NA,Magnitude of body angular velocity (using Euclidean norm),Standard deviation,Time domain signal
+41,tBodyGyroJerkMag-mean(),Numeric,tBodyGyroJerkMag,mean,NA,Magnitude of jerk of body angular velocity (using Euclidean norm),Mean value,Time domain signal
+42,tBodyGyroJerkMag-std(),Numeric,tBodyGyroJerkMag,std,NA,Magnitude of jerk of body angular velocity (using Euclidean norm),Standard deviation,Time domain signal
+43,fBodyAcc-mean()-X,Numeric,fBodyAcc,mean,X,Body linear acceleration,Mean value,Frequency domain signal
+44,fBodyAcc-mean()-Y,Numeric,fBodyAcc,mean,Y,Body linear acceleration,Mean value,Frequency domain signal
+45,fBodyAcc-mean()-Z,Numeric,fBodyAcc,mean,Z,Body linear acceleration,Mean value,Frequency domain signal
+46,fBodyAcc-std()-X,Numeric,fBodyAcc,std,X,Body linear acceleration,Standard deviation,Frequency domain signal
+47,fBodyAcc-std()-Y,Numeric,fBodyAcc,std,Y,Body linear acceleration,Standard deviation,Frequency domain signal
+48,fBodyAcc-std()-Z,Numeric,fBodyAcc,std,Z,Body linear acceleration,Standard deviation,Frequency domain signal
+49,fBodyAccJerk-mean()-X,Numeric,fBodyAccJerk,mean,X,Jerk of body linear acceleration,Mean value,Frequency domain signal
+50,fBodyAccJerk-mean()-Y,Numeric,fBodyAccJerk,mean,Y,Jerk of body linear acceleration,Mean value,Frequency domain signal
+51,fBodyAccJerk-mean()-Z,Numeric,fBodyAccJerk,mean,Z,Jerk of body linear acceleration,Mean value,Frequency domain signal
+52,fBodyAccJerk-std()-X,Numeric,fBodyAccJerk,std,X,Jerk of body linear acceleration,Standard deviation,Frequency domain signal
+53,fBodyAccJerk-std()-Y,Numeric,fBodyAccJerk,std,Y,Jerk of body linear acceleration,Standard deviation,Frequency domain signal
+54,fBodyAccJerk-std()-Z,Numeric,fBodyAccJerk,std,Z,Jerk of body linear acceleration,Standard deviation,Frequency domain signal
+55,fBodyGyro-mean()-X,Numeric,fBodyGyro,mean,X,Body angular velocity,Mean value,Frequency domain signal
+56,fBodyGyro-mean()-Y,Numeric,fBodyGyro,mean,Y,Body angular velocity,Mean value,Frequency domain signal
+57,fBodyGyro-mean()-Z,Numeric,fBodyGyro,mean,Z,Body angular velocity,Mean value,Frequency domain signal
+58,fBodyGyro-std()-X,Numeric,fBodyGyro,std,X,Body angular velocity,Standard deviation,Frequency domain signal
+59,fBodyGyro-std()-Y,Numeric,fBodyGyro,std,Y,Body angular velocity,Standard deviation,Frequency domain signal
+60,fBodyGyro-std()-Z,Numeric,fBodyGyro,std,Z,Body angular velocity,Standard deviation,Frequency domain signal
+61,fBodyAccMag-mean(),Numeric,fBodyAccMag,mean,NA,Magnitude of body linear acceleration (using Euclidean norm),Mean value,Frequency domain signal
+62,fBodyAccMag-std(),Numeric,fBodyAccMag,std,NA,Magnitude of body linear acceleration (using Euclidean norm),Standard deviation,Frequency domain signal
+63,fBodyAccJerkMag-mean(),Numeric,fBodyAccJerkMag,mean,NA,Magnitude of jerk of body linear acceleration (using Euclidean norm),Mean value,Frequency domain signal
+64,fBodyAccJerkMag-std(),Numeric,fBodyAccJerkMag,std,NA,Magnitude of jerk of body linear acceleration (using Euclidean norm),Standard deviation,Frequency domain signal
+65,fBodyGyroMag-mean(),Numeric,fBodyGyroMag,mean,NA,Magnitude of body angular velocity (using Euclidean norm),Mean value,Frequency domain signal
+66,fBodyGyroMag-std(),Numeric,fBodyGyroMag,std,NA,Magnitude of body angular velocity (using Euclidean norm),Standard deviation,Frequency domain signal
+67,fBodyGyroJerkMag-mean(),Numeric,fBodyGyroJerkMag,mean,NA,Magnitude of jerk of body angular velocity (using Euclidean norm),Mean value,Frequency domain signal
+68,fBodyGyroJerkMag-std(),Numeric,fBodyGyroJerkMag,std,NA,Magnitude of jerk of body angular velocity (using Euclidean norm),Standard deviation,Frequency domain signal
