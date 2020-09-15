@@ -97,10 +97,11 @@ Once the environment is set up, run the script 'run_analysis.R'.
 A detailed description of the R methods and functions used for these processes can be found in the inline comments in 'run_analysis.R'.
 
 ## Results
-The script 'run_analysis.R' creates three tidy datasets in the R environment:
-	- `tidyData` [10299 x 563]
-	- `tidyDataFiltered` [10299 x 68]
-	- `avgData` [180 x 68]
+The script 'run_analysis.R' creates three tidy datasets in the R environment:  
+	1. `tidyData` [10299 x 563]  
+	2. `tidyDataFiltered` [10299 x 68]  
+	3. `avgData` [180 x 68]  
+  
 Each of these can be printed to the console, written to the disk and/or analysed in another software as desired. For example, `avgData` was written to the disk and submitted to Coursera for the course assignment.
 > Use `write.table(avgData, "avgData.txt", row.names = F)` to save avgData to the working directory as a table in .txt format.
 
