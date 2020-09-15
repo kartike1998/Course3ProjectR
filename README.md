@@ -2,11 +2,12 @@
 "Getting and Cleaning Data" course project, part of the "Data Science: Foundations using R" specialization on Coursera
 
 ## Table of Contents
-1. Objective
-2. Preparation
-3. Analysis
-4. Results
-5. References
+- [Objective](https://github.com/kartike1998/Course3ProjectR/blob/master/README.md#Objective)
+- [Data](https://github.com/kartike1998/Course3ProjectR/blob/master/README.md#Data)
+- [Preparation](https://github.com/kartike1998/Course3ProjectR/blob/master/README.md#Preparation)
+- [Analysis](https://github.com/kartike1998/Course3ProjectR/blob/master/README.md#Analysis)
+- [Results](https://github.com/kartike1998/Course3ProjectR/blob/master/README.md#Results)
+- [References](https://github.com/kartike1998/Course3ProjectR/blob/master/README.md#References)
 
 ## Objective
 This project was given as an assignment in week 4 of the Course "Getting and Cleaning Data". The objective of the project is to clean a messy dataset, analyze it and extract some inferences. The R script 'run_analysis.R' performs these tasks. It imports the raw data, cleans it and carries out transformations to produce a tidy dataset with the required calculations and their results.  
@@ -19,7 +20,7 @@ The problem statement for the assignment is:
 > 4. Appropriately labels the data set with descriptive variable names.
 > 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## Raw data
+## Data
 The data are available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
   
 The README.txt for the raw dataset is included in the folder "UCI HAR Dataset", along with the data files. It contains a comprehensive and elaborate description of all the files in the dataset, the method of collection of the raw data, and the various calculations performed on it to create the dataset.  
@@ -93,6 +94,8 @@ A detailed description of the R methods and functions used for these processes c
 ## Results
 The script 'run_analysis.R' creates three tidy datasets in the R environment, `tidyData`, `tidyDataFiltered` and `avgData`, each of which can be printed to the console, written to the disk and/or analysed in another software as desired. For example, `avgData` was written to the disk and submitted to Coursera for the course assignment.
 > Use `write.table(avgData, "avgData.txt", row.names = F)` to save avgData to the working directory as a table in .txt format.
+
+'Codebook.md' is also included in this project. It contains a description of all the variables and statistical information about the datasets. Refer to it for more details.
 
 ## References
 1. Lectures and notes from "Getting and Cleaning Data" course, part of the "Data Science: Foundations using R" specialization, offered by Johns Hopkins University on Coursera.
