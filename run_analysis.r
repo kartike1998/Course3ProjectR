@@ -105,4 +105,10 @@ tidyDataFiltered <- tidyData[, indexVector]
 
 avgData <- ddply(tidyDataFiltered, .(Subject, Activity), summarise_at, .vars = -(1:2), .funs = mean)
 
+# We also need to change the column headers in avgData to reflect the change in the variables. For 
+# this, we use paste0 along with colnames to prefix "Avg-of-" to each column header (except the 
+# first two).
+
+colnames(avgData)[-(1:2)] <- paste0("Avg-of-", colnames(avgData)[-(1:2)])
+
 # avgData can now be written to the disk or printed to the console as desired.
