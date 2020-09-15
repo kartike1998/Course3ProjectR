@@ -85,15 +85,19 @@ Once the environment is set up, run the script 'run_analysis.R'.
 
 'run_analysis.R' carries out the required tasks in 5 steps:
 1. First, it imports the training and test datasets along with the subject and activity labels files from 'UCI HAR Dataset' folder into R, and merges them to create a single complete dataset with dimensions [10299 x 563], called `fullData`.
-2. Then, it creates a new data frame `tidyData` from the complete dataset of the previous step which will be cleaned to produce a tidy data set. Then, it replaces the activity labels in the second column of `tidyData` with descriptive activity names (taken from activity_labels.txt) to make the data easier to understand.
+2. Then, it creates a new data frame `tidyData` from the complete dataset of the previous step which will be cleaned to produce a tidy data set. Subsequently, it replaces the activity labels in the second column of `tidyData` with descriptive activity names (taken from activity_labels.txt) to make the data easier to understand.
 3. Next, the program adds variable names to the columns in the tidy data set from step \2. All except two of these are programmatically obtained from features.txt and used as is to preserve referenceability. The headers for the first two columns are specified manually (as they are not present in features.txt)
 4. In this step, the script extracts only the columns containing measurements on the mean and standard deviation from `tidyData` (as asked in the assignment), and copies them into a new dataset called `tidyDataFiltered` with dimensions [10299 x 68].
-5. Finally, the program creates an independent tidy dataset called `avgData` from `tidyDataFiltered` as instructed. This dataset contains the average of each variable from `tidyDataFiltered` grouped by Subject and Activity, and has the dimensions [180 x 68].  
+5. Finally, the program creates an independent tidy dataset called `avgData` from `tidyDataFiltered` as instructed. This dataset contains the average of each variable from `tidyDataFiltered` grouped by Subject and Activity, and has the dimensions [180 x 68]. The script also updates the variable names in `avgData` accordingly.  
   
 A detailed description of the R methods and functions used for these processes can be found in the inline comments in 'run_analysis.R'.
 
 ## Results
-The script 'run_analysis.R' creates three tidy datasets in the R environment, `tidyData`, `tidyDataFiltered` and `avgData`, each of which can be printed to the console, written to the disk and/or analysed in another software as desired. For example, `avgData` was written to the disk and submitted to Coursera for the course assignment.
+The script 'run_analysis.R' creates three tidy datasets in the R environment:
+	- `tidyData` [10299 x 563]
+	- `tidyDataFiltered` [10299 x 68]
+	- `avgData` [180 x 68]
+Each of these can be printed to the console, written to the disk and/or analysed in another software as desired. For example, `avgData` was written to the disk and submitted to Coursera for the course assignment.
 > Use `write.table(avgData, "avgData.txt", row.names = F)` to save avgData to the working directory as a table in .txt format.
 
 'Codebook.md' is also included in this project. It contains a description of all the variables and statistical information about the datasets. Refer to it for more details.
@@ -103,4 +107,3 @@ The script 'run_analysis.R' creates three tidy datasets in the R environment, `t
 2. Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10), 1 - 23. doi:http://dx.doi.org/10.18637/jss.v059.i10
 3. Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 4. www.markdownguide.org
-
