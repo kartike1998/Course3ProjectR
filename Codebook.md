@@ -2,7 +2,7 @@
 A description of the variables and statistical information for the tidy datasets.
 
 ## `tidyData` dataset
-Dimensions: 10299 x 563  
+**Dimensions:** 10299 x 563  
 Structure as follows:  
   
 | Column number | Variable name                        | Type               | Observation      | Function    | Component | Description                                                                                                    | Measurement type                                                            | Domain                  |
@@ -572,7 +572,7 @@ Structure as follows:
 | 563           | angle(Z,gravityMean)                 | Numeric            | angle            | NA          | NA        | Angle between Z axis and gravity mean                                                                          | Angle between two vectors                                                   | Time domain signal      |
 
 ## `tidyDataFiltered` dataset
-Dimensions: 10299 x 68  
+**Dimensions:** 10299 x 68  
 Structure as follows:  
   
 | Column number | Variable name           | Type               | Observation      | Function | Component | Description                                                                                                    | Measurement type   | Domain                  |
@@ -647,7 +647,7 @@ Structure as follows:
 | 68            | fBodyGyroJerkMag-std()  | Numeric            | fBodyGyroJerkMag | std      | NA        | Magnitude of jerk of body angular velocity (using Euclidean norm)                                              | Standard deviation | Frequency domain signal |
 
 ## `avgData` dataset
-Dimensions: 180 x 68  
+**Dimensions:** 180 x 68  
 Structure as follows:  
   
 | Column number | Variable name                  | Type               | Observation      | Function | Component | Description                                                                                                    | Measurement type              | Domain                  |
