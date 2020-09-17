@@ -105,7 +105,7 @@ The script 'run_analysis.R' creates three tidy datasets in the R environment:
 Each of these can be printed to the console, written to the disk and/or analysed in another software as desired. For example, `avgData` was written to the disk and submitted to Coursera for the course assignment.
 > Use `write.table(avgData, "avgData.txt", row.names = F)` to save avgData to the working directory as a table in .txt format.
 
-'Codebook.md' is also included in this project. It contains a description of all the variables and statistical information about the datasets. Refer to it for more details.
+Refer to 'Codebook.md' (also included in this project) for a detailed description of all the variables and statistical information about the datasets.
 
 ## References
 1. Lectures and notes from "Getting and Cleaning Data" course, part of the "Data Science: Foundations using R" specialization, offered by Johns Hopkins University on Coursera
